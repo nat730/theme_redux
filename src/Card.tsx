@@ -11,10 +11,10 @@ const Card = () => {
 
   return (
     <div className="card" style={{ backgroundColor: theme === 'dark' ? '#eee' : '#333', padding: '10px', marginTop: '10px' }}>
-      <h3>Card</h3>
-      <button onClick={handleToggleTheme}>Toggle Theme</button>
+      <h3 style={{ color: theme === 'dark' ? '#333' : '#eee'}}>Card</h3>
+      <button onClick={handleToggleTheme} style={{ color: theme === 'dark' ? '#333' : '#eee'}}>Toggle Theme</button>
     </div>
-  );
+  );  
 };
 
 export default Card;

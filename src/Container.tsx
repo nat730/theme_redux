@@ -6,7 +6,7 @@ const Container = () => {
 
   return (
     <div className="container" style={{ backgroundColor: theme === 'dark' ? '#333' : '#eee', padding: '20px' }}>
-      <h2>Container</h2>
+      <h2 style={{ color: theme === 'dark' ? '#eee' : '#333'}}>Container</h2>
       <Card />
     </div>
   );
